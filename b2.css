@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid rgba(255, 192, 203, 0.301);
+    text-align: center;
+   height: 500px;
+   width: 700px;
+   margin: 0 auto;
+}
+.hang1{
+    background-color: palevioletred;
+    color: white;
+}
+tr:nth-child(2n+1){
+    background-color: pink;
+}
+tr:first-child{
+    background-color: palevioletred;
+}
